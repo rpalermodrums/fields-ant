@@ -34,6 +34,7 @@ class OptionSelect extends Component<IProps> {
   }
 
   public render () {
+    console.log(this.props);
     return (
       <Antd.Select
         allowClear
